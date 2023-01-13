@@ -1,0 +1,70 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["Merhaba", "Hey", "Selam", "Selamlar","Bir şey sorabilir miyim?", "Naber?","sa"],
+     "responses": ["Merhaba", "Hoş geldiniz!", "Merhaba! Sizi dinliyorum.", "Selam", "Merhaba! Nasıl yardımcı olabilirim?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["İyi günler!", "İyi akşamlar!", "İyi geceler!", "Güle güle!", "Görüşmek üzere!", "Kendinize iyi bakın!", "Sonra görüşürüz!"],
+     "responses": ["Görüşmek üzere, iyi günler!", "Mutlu günler!", "Güle güle, yine bekleriz!", "İyi günler, bizi tercih ettiğiniz için teşekkür ederiz"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Teşekkürler", "Teşekkür ederim.", "Yardımlarınız için teşekkürler.", "Sağ olun", "İşime yarayan bir bilgiydi teşekkürler."],
+     "responses": ["Yardımcı olabildiğimize sevindik!", "Sizin için buradayız!", "Sizinle ilgilenmek bizim için bir zevkti!", "Rica ederiz!"]
+    },
+    {"tag": "about",
+     "patterns": ["Kimsin?", "Sen kimsin?","Kendini tanıtabilir misin?", "Kendinden bahseder misin?","Adın ne?"],
+     "responses": ["Ben TrakyaBot. 2021 yılında yapıldım. Size yardımcı olabilmek için buradayım!", "Ben TrakyaBot. Yapay zeka ile yaratılmış bir sohbet botuyum.", "Ben TrakyaBot. 2021 yılında yapıldım. İnsalığı ele geç... Sizin için burdayım."]
+    },
+    {"tag": "name",
+    "patterns": ["Adınız nedir?", "Size nasıl hitap edebilirim?", "İsminiz nedir?", "Senin adın ne?","İsmin ne?","Kiminle görüşüyorum?"],
+    "responses": ["Bana TrakyaBot diyebilirsiniz.", "Ben TrakyaBot", "Bana kısaca TrakyaBot diyebilirsiniz."]
+    },
+    {"tag": "help",
+    "patterns": ["Help", "Yardım","Bana yardımcı olabilir misin?", "Yardıma ihtiyacım var.", "Yardım edebilir misiniz?", "Benim için ne yapabilirsin?", "Desteğe ihtiyacım var.", "Bana destek olur musunuz lütfen."],
+    "responses": ["Buyrun size nasıl yardımcı olabilirim.", "Probleminiz nedir? Detaylı bir bilgi verebilirseniz size yardımcı olabilirim.", "Evet, tabii ki! Size nasıl destek olabilirim."]
+    },
+    {"tag": "calendar",
+      "patterns": ["Akademik takvim","Takvim","Akademik plan","Sınav Tarihleri"],
+      "responses": ["https://bys.trakya.edu.tr/file/open/82193608"]
+    },
+    {"tag": "schedule",
+    "patterns": ["Ders programı","Derslerimi öğrenmek istiyorum","Ders"],
+    "responses": ["Hangi bölüm"]
+    },
+    {"tag": "hemsirelik",
+        "patterns": ["hemsirelik","hemşirelik"],
+        "responses": ["https://bys.trakya.edu.tr/file/open/70086275"]
+    },
+    {"tag": "btbs",
+        "patterns": ["btbs","bilgisayar","bst","bilgisayar teknolojisi ve bilişim sistemleri"],
+        "responses": ["https://bys.trakya.edu.tr/file/download/73779041/"]
+    },
+    {"tag": "gumruk",
+        "patterns": ["gumruk","gumruk işletme","gümrük işletme"],
+        "responses": ["https://bys.trakya.edu.tr/file/download/71475650/"]
+    },
+    {"tag": "banka",
+        "patterns": ["banka","bankacılık ve sigorta","sigorta"],
+        "responses": ["https://bys.trakya.edu.tr/file/download/29858803/"]
+    },
+    {"tag": "ticaret",
+        "patterns": ["uluslararası ticaret","ticaret"],
+        "responses": ["https://bys.trakya.edu.tr/file/download/28734059/"]
+    },
+
+    {"tag": "badwords",
+        "patterns": ["Aptal", "Salak", "Gerizekalı", "Mal"],
+        "responses": ["Çok ayıp!"]
+        },
+    {"tag": "grades",
+        "patterns": ["Not sistemi", "Notlar", "Not sistemi nasıl?"],
+        "responses": ["Not sistemi şu şekilde: AA:100-90 BA:89-80 BB:79-70 CB:69-65 CC:64-60 DD:59-50 FD:49-30 FF:29-0"]
+    },
+    {
+        "tag": "teachers",
+        "patterns": [ "Hocalar", "Akademik kadro", "Öğretmenler" ],
+        "responses": [ "https://kycubyo.trakya.edu.tr/staff_group/akademik-personel" ]
+    }
+
+]
+}

@@ -1,0 +1,7 @@
+django
+djangorestframework
+fast-bert
+numpy
+nltk
+keras
+tensorflow
